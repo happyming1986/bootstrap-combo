@@ -1,0 +1,23 @@
+.SimpleAutoComplete-container {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.SimpleAutoComplete-container .dropdown-menu {
+  display: none;
+  min-width: 100%;
+}
+
+.SimpleAutoComplete-container.open .dropdown-menu {
+  display: block;
+}
+
+.SimpleAutoComplete-container .dropdown-menu li {
+  list-style-type: none;
+  padding: 5px 8px;
+}
+
+.SimpleAutoComplete-container .dropdown-menu li.SimpleAutoComplete-focus {
+  background-color: #eee;
+}
